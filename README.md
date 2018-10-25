@@ -37,7 +37,10 @@ The prompt is updated only when this script is run. It does not dynamically dete
 
 ## The correct fix
 
-Instead of using this script:
+Instead of using this script, 3rd-party tools should use assumed roles (with MFA) properly.
 
-- **[serverless](https://github.com/serverless/serverless/issues/3833)** should be fixed to use assumed role properly
-- **[assume-role](https://github.com/jorgebastida/awslogs/issues/202)** should set a visible notification to your prompt about the active role
+For more info, see:
+
+- [serverless/serverless#3833](https://github.com/serverless/serverless/issues/3833)
+- [jorgebastida/awslogs#202](https://github.com/jorgebastida/awslogs/issues/202)
+- [remind101/assume-role#36](https://github.com/remind101/assume-role/issues/36)
